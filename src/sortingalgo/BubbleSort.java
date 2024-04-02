@@ -9,7 +9,7 @@ public class BubbleSort {	// brute force approach for sorting == bubble sort
 					int temp=a[i];
 					a[i]=a[i+1];
 					a[i+1]=temp;
-					// this is comment
+			
 				}
 			}
 		}
