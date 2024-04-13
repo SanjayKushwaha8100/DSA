@@ -2,7 +2,7 @@ package sortingalgo;
 
 public class BubbleSort {	// brute force approach for sorting == bubble sort
 	public static void main(String args[]) {
-		int a[]= {2,5,1,4,3,23,0,9};
+		int a[]= {2,5,1,4,3,23,0,9,-1,0,3,23};
 		for(int j=0;j<a.length;j++) {
 			for(int i=0;i<a.length-1-j;i++) {
 				if(a[i]>a[i+1]) {
