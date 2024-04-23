@@ -26,7 +26,7 @@ public class InviteNtoParty {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int N=2;
+		int N=4;
 		System.out.println("Total no of ways "+ N +" person can come to party:"+
 		ways(N));
 

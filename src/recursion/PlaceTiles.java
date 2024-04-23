@@ -20,7 +20,7 @@ public class PlaceTiles {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(totalWays(4,2));
+		System.out.println(totalWays(4,3));
 	}
 
 }
