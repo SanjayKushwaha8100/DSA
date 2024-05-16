@@ -1,17 +1,17 @@
 package tree;
 
 public class TreeFromPreorderSequence {
-	static class Node{
-		int data;
-		Node left;
-		Node right;
+	public static class Node{
+		public int data;
+		public Node left;
+		public Node right;
 		Node(int data){
 			this.data=data;
 			left=null;
 			right=null;
 		}
 	}
-	static class BinaryTree{
+	public static class BinaryTree{
 		static int idx=-1;	 // Declared at class lvl for global access 
 		public static Node buildTree(int nodesArray[]) {
 			idx++;	// at start the idx will become 0 and keep on maintaining the indx for array & indx++ for recursive calls
@@ -28,8 +28,8 @@ public class TreeFromPreorderSequence {
 	public static void main(String[] args) {
 		// Pre Order
 		int nodesArray[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
-		BinaryTree tree= new BinaryTree();
-		Node root = tree.buildTree(nodesArray);
+//		BinaryTree tree= new BinaryTree();
+		Node root = (new BinaryTree()).buildTree(nodesArray);
 		System.out.println(root.data);
 
 	}
