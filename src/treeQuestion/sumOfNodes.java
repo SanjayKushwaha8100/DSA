@@ -2,7 +2,7 @@ package treeQuestion;
 
 import tree.TreeFromPreorderSequence.*;
 import java.util.*;
-
+import tree.TreeFromPreorderSequence.Node;
 public class sumOfNodes {
     public int sum(Node root) {
         if(root==null){

@@ -1,6 +1,7 @@
 package treeQuestion;
 
 import tree.TreeFromPreorderSequence.*;
+import tree.TreeFromPreorderSequence.Node;
 import java.util.*;
 
 public class diameterOfTree {

@@ -2,7 +2,7 @@ package treeQuestion;
 
 import tree.TreeFromPreorderSequence.*;
 import java.util.*;
-
+import tree.TreeFromPreorderSequence.Node;
 public class heightOfTree {
     public int height(Node node) {
     	if(node==null)return 0;
