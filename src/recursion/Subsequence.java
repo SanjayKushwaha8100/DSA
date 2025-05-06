@@ -1,3 +1,4 @@
+
 package recursion;
 
 import java.util.*;
@@ -9,6 +10,7 @@ public class Subsequence {
 		List<List<Integer>> ans = new ArrayList<>();
 		subsuquence(input, ans, 0, new ArrayList<>());
 		System.out.println(ans);
+    subseq("abc",0,"");
 	}
 	private static void subsuquence(int[] input, List<List<Integer>> ans, int index, List<Integer> subset) {
 		if (index == input.length) {
@@ -23,6 +25,20 @@ public class Subsequence {
 		// removing the ele
 		subset.remove(subset.size()-1);
 		subsuquence(input, ans, index + 1, subset);
+	}
+  static void subseq(String inp,int indx,String out) {
+		if(indx==inp.length()) {
+			// here indx will be out of bound which is equal to length
+			System.out.println(out);
+			return;
+		}
+		char curr=inp.charAt(indx);
+		
+		// including curr char 
+		subseq(inp,indx+1,out+curr);
+		// not including curr char 
+		subseq(inp,indx+1,out);
+
 	}
 
 }
