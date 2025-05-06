@@ -15,7 +15,8 @@ public class Factorial {
 		Scanner scanner=new Scanner(System.in);
 		int input=scanner.nextInt();
 		long ans=factorial(input);
-		System.out.println("Factorial is:"+ans);
+		System.out.println("Factorial is: "+ans);
+		// ok
 		
 	}
 
