@@ -10,7 +10,7 @@ package recursion;
 
 import java.util.*;
 
-public class A2MaxSumSubarrayWithIndices {
+public class MaxSumSubarrayWithKsize { 
 	public static int[] maxSumSubarrayWithIndices(int[] arr, int k) {
         if (arr == null || arr.length < k || k <= 0) {
             throw new IllegalArgumentException("Invalid input");

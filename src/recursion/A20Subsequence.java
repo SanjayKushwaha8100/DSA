@@ -2,7 +2,7 @@ package recursion;
 
 import java.util.*;
 
-public class Subsequence {
+public class A20Subsequence {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int input[] = { 1, 2, 3 };

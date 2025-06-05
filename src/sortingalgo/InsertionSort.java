@@ -1,5 +1,9 @@
 package sortingalgo;
 
+/* Insertion Sort is a simple, in-place sorting algorithm that builds a sorted array one element at a 
+time by repeatedly picking an element and inserting it into its correct position in the already sorted
+portion of the array. It’s efficient for small or nearly sorted datasets. */
+
 public class InsertionSort {
 	static void print(int a[]){
 		for(int i=0;i<a.length;i++) {
